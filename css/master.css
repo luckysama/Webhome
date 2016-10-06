@@ -1,0 +1,42 @@
+
+body {	
+	color: black;
+	font-family: Arial, sans-serif;	
+	text-align: center;
+	min-width: 950px;
+    background-color: #f1f1e7;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+	vertical-align: baseline;
+}
+
+.header {
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: white;
+	background: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left : 70px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#wrapper {
+	text-align: left;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	background-color: #392714;
+}
+
+div.content{
+	background: black;
+}
+
+#frontlayer {
+	
+}
