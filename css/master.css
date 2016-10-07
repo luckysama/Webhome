@@ -1,6 +1,7 @@
 
 body {	
 	color: black;
+	height: 100%;
 	font-family: Arial, sans-serif;	
 	text-align: center;
 	min-width: 950px;
@@ -12,31 +13,90 @@ body {
 }
 
 .header {
-	border-bottom-style: solid;
-	border-bottom-width: 3px;
-	border-bottom-color: white;
 	background: black;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 20px;	
 	padding-left : 70px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 18px;
     color: white;
+    border-top-style: solid;
+    border-top-color: grey;   
+}
+
+.largefont
+{
+	font-size: 150%;
 }
 
 #wrapper {
 	text-align: left;
 	width: 950px;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	background-color: #392714;
+	background-color: black;
+	border-right-style: solid;
+	border-right-color: grey;
+	border-left-style: solid;
+	border-left-color: grey;	
 }
+	
 
 div.content{
 	background: black;
+	color:white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+	padding: 10px;
+
 }
 
+#restrictedtext
+{
+	width:750px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-indent: 20px;
+}
+
+.thumbnail{
+	width: 200px;
+	height: 150px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+table
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a:link
+{
+	color: #e6e6e6;	
+}
+a:visited
+{
+	color: #e6e6e6;
+}
+a:hover
+{
+	color: #cce6ff;
+}
+a:active
+{
+	color: #cce6ff;
+}
+
+div.footer {
+    padding: 10px;
+    text-align: center;
+    color: grey;
+    line-height: 20px;
+    border-bottom-style: solid;
+	border-bottom-color: grey;
+}
 #frontlayer {
 	
 }
