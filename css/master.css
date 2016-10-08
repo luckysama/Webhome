@@ -12,14 +12,11 @@ body {
 }
 
 .header {
-	background: black;
 	padding-top: 20px;	
 	padding-left : 70px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 18px;
-    color: white;
-    border-top-style: solid;
-    border-top-color: grey;   
+    color: black;
 }
 
 .largefont
@@ -34,17 +31,15 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	background-color: black;
-	border-right-style: solid;
-	border-right-color: grey;
-	border-left-style: solid;
-	border-left-color: grey;	
+	background-color: #ffffe6;
+	background-image: url("../images/paperbk.jpg");
+	background-repeat: repeat-y;
+	box-shadow: 2px 2px 5px #888888;
 }
 	
 
 div.content{
-	background: black;
-	color:white;
+	color:black;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
 	padding: 10px;
 
@@ -62,8 +57,9 @@ div.content{
 	width: 200px;
 	height: 150px;
 	border-radius: 10px;
-	border-color: #e6e6e6;
+	border-color: white;
 	border-style: solid;
+	box-shadow: 2px 2px 5px #888888;
 }
 
 .albumicon
@@ -75,11 +71,12 @@ div.content{
 	height:auto;
 	border-color: #e6e6e6;
 	border-style: solid;
+	box-shadow: 2px 2px 5px #888888;
 }
 
 .albumicon:hover
 {
-	border-color: #b3e0ff;
+	border-color: #4080bf;
 }
 
 table
@@ -101,19 +98,19 @@ tr.padbottom > td
 
 a:link
 {
-	color: #e6e6e6;	
+	color: #001a33;	
 }
 a:visited
 {
-	color: #e6e6e6;
+	color: #001a33;
 }
 a:hover
 {
-	color: #cce6ff;
+	color: #4080bf;
 }
 a:active
 {
-	color: #cce6ff;
+	color: #4080bf;
 }
 
 div.footer {
@@ -121,8 +118,6 @@ div.footer {
     text-align: center;
     color: grey;
     line-height: 20px;
-    border-bottom-style: solid;
-	border-bottom-color: grey;
 }
 
 .modal {
@@ -147,9 +142,11 @@ div.footer {
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
-    display: block;
-    width: 80%;
+    display: block;   
     max-width: 700px;
+    max-height: 700px;
+     width: auto;
+     height:auto;
 }
 
 .modal-bottom{
