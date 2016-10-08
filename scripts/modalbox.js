@@ -1,4 +1,4 @@
-document.write('\<div id="modal_box" class="modal">\<span class="close" onclick="hide_modal()">&times</span>\ <img class="modal-content" id="modal_image">\ </div>');
+document.write('\<div id="modal_box" class="modal">\<span class="close" onclick="hide_modal()">&times</span>\ <img class="modal-content" id="modal_image">\ <div class="modal-bottom"> <p> </div> </div>');
 
 var modal = document.getElementById('modal_box');
 var display_img = document.getElementById('modal_image');
